@@ -13,6 +13,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 nav img {
@@ -51,4 +52,6 @@ nav ul li a {
 h1 {
   background-color: #BD5191;
   text-align: center;
+  position: relative;
+  top: 450px;
 }
