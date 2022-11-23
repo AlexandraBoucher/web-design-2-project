@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.hero-banner {
+  background-image: url(https://www3.pictures.itsrosy.com/mp/F1knTqVgCtfx.jpg);
+  height: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav ul li img {
+  height: 50px;
+  width: 50px;
+}
+
+nav {
+  background-color: #BD5191;
+}
+
+nav ul li {
+  list-style-type: none;
+}
