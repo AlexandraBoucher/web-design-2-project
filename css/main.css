@@ -71,3 +71,10 @@ div ul {
 div a {
   text-decoration: none;
 }
+
+.history, .inspiration, .influences {
+  display: flex;
+}
+.index-section article img {
+  width: 600px;
+}
