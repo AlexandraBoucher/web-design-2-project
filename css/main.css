@@ -53,12 +53,13 @@ nav ul li a {
 }
 
 h1 {
-  background-color: rgba(189, 81, 145, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem 0;
   text-align: center;
   position: relative;
-  top: 400px;
+  top: 300px;
   font-size: 3rem;
+  color: white;
 }
 
 div ul {
@@ -72,12 +73,30 @@ div a {
   text-decoration: none;
 }
 
+.page-nav ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: .7rem 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.page-nav ul li {
+  padding: 1.5rem;
+}
+
 .history, .inspiration, .influences {
   display: flex;
+}
+
+.index-section article h2 {
+  color: rgba(189, 81, 145);
+  font-size: 2rem;
 }
 .index-section article img {
   width: 600px;
 }
+
 
 footer {
   background: rgba(189, 81, 145);
