@@ -78,3 +78,7 @@ div a {
 .index-section article img {
   width: 600px;
 }
+
+footer {
+  background: rgba(189, 81, 145);
+}
