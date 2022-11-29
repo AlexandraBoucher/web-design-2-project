@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Righteous&display=swap');
 
 html {
   box-sizing: border-box;
   font-family: "Righteous", sans-serif;
   line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -20,6 +21,9 @@ html {
   position: relative;
 }
 
+p {
+  font-family: "Inter", sans-serif;
+}
 nav img {
   height: 90px;
   width: 90px;
@@ -52,6 +56,11 @@ nav ul li a {
   border-radius: 1.5rem;
 }
 
+nav ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
 h1 {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem 0;
@@ -66,19 +75,28 @@ div ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-
 }
 
 div a {
   text-decoration: none;
 }
 
+.page-nav {
+  align-items: center;
+  padding: 0 5rem;
+}
 .page-nav ul li a {
   text-decoration: none;
+  font-size: 1.5rem;
   color: white;
   background-color: black;
   padding: .7rem 1.5rem;
   border-radius: 1.5rem;
+}
+
+.page-nav ul li a:hover {
+  color: black;
+  background-color: rgba(189, 81, 145);
 }
 
 .page-nav ul li {
@@ -87,10 +105,15 @@ div a {
 
 .history, .inspiration, .influences {
   display: flex;
+  align-items: center;
 }
 
-.index-section article {
+.history, .influences {
   padding: 0 1rem 4rem;
+}
+
+.inspiration {
+    padding: 0 1rem 1.5rem;
 }
 
 .index-section article h2 {
@@ -104,7 +127,7 @@ div a {
 }
 
 .index-section article img {
-  width: 600px;
+  width: 800px;
 }
 
 .influences {
@@ -119,4 +142,5 @@ footer {
 
 footer small {
   padding-right: 1.5rem;
+  font-family: "Inver", sans-serif;
 }
