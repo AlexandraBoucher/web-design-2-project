@@ -160,19 +160,27 @@ h3 {
 }
 
 
-.photo-overlay {
-	opacity: 0;
-	transition: opacity .5s;
+.genres article p {
+  opacity: 1;
+  background-color: lightgrey;
 }
 
-.photo-overlay:hover {
-	opacity: 1;
+.genres p {
+  transform: translateX(-100%);
 }
 
-.photo {
+.genres:hover p {
+	transform: translateX(0);
+}
+
+.slide:hover p {
+  transform: translateX(100%);
+}
+
+/* .photo {
   position: relative;
   overflow: hidden;
-}
+} */
 
 footer {
   background: rgba(189, 81, 145);
