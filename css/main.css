@@ -27,6 +27,7 @@ p {
 
 h2 {
   font-size: 2.5rem;
+  color: #1f1c27;
 }
 
 nav img {
@@ -55,15 +56,15 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
-  background-color: black;
+  color: #f0e9dc;
+  background-color: #1f1c27;
   padding: .7rem 1.5rem;
   border-radius: 1.5rem;
 }
 
 nav ul li a:hover {
   color: black;
-  background-color: white;
+  background-color: #f0e9dc;
 }
 
 h1 {
@@ -73,7 +74,7 @@ h1 {
   position: relative;
   top: 300px;
   font-size: 3rem;
-  color: white;
+  color: #f0e9dc;
 }
 
 div ul {
@@ -93,14 +94,14 @@ div a {
 .page-nav ul li a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: white;
+  color: #f0e9dc;
   background-color: black;
   padding: .7rem 1.5rem;
   border-radius: 1.5rem;
 }
 
 .page-nav ul li a:hover {
-  color: black;
+  color: #1f1c27;
   background-color: rgba(189, 81, 145);
 }
 
@@ -139,14 +140,27 @@ div a {
 }
 
 /* GENRES */
+.other-nav {
+  background-color: rgba(189, 81, 145);
+}
+
+.h2-genre {
+  margin-left: 2rem;
+}
+
 h3 {
   font-size: 1.5rem;
+  color: #f0e9dc;
+  font-weight: lighter;
+  text-align: left;
+  padding-left: 1rem;
 }
+
 .genres{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  margin-bottom: 2rem;
+  gap: 1.5rem;
+  margin: 2rem;
 }
 
 .genres img {
@@ -159,6 +173,12 @@ h3 {
   text-align: center;
 }
 
+.genres li {
+  list-style-type: none;
+  color: #f0e9dc;
+  font-family: "Inter", sans-serif;
+}
+
 .slide {
   position: relative;
   overflow: hidden;
@@ -166,21 +186,20 @@ h3 {
 
 .slide p {
   opacity: 1;
-  background: lightgrey;
   transform: translateX(-100%);
-  color: #fff;
+  color: #1f1c27;
   position: absolute;
-  top: 70px;
+  top: 0;
   right: 0;
-  bottom: 110px;
+  bottom: 0;
   left: 0;
   padding-left: 20px;
   padding-right: 20px;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,0.5);
+  background: rgba(192,192,192, 0.8);
 }
 
 .slide p, .slide img {
