@@ -215,12 +215,6 @@ h3 {
   transform: translateX(100%);
 }
 
-
-/* .photo {
-  position: relative;
-  overflow: hidden;
-} */
-
 footer {
   background: rgba(189, 81, 145);
   padding: 2rem 0;
@@ -234,30 +228,65 @@ footer small {
 
 /* CONTACT */
 
+.contact-main {
+  margin: 1rem 0 2rem;
+}
+
 .top {
-  margin: 1rem;
   text-align: center;
   color: #1f1c27;
+}
+
+.top p {
+  margin: 0;
 }
 
 .container {
     min-width:100%;
     max-height: 100%;
-    margin: 60px 0;
 
 }
 
 input, textarea {
     display:block;
     border: 1px solid #1f1c27;
-    width:60%;
-    margin: 1.5rem;
+    width:50%;
+    margin: 2rem auto;
     padding: 1rem;
     color: #1f1c27;
     font-family: "Inter", sans-serif;
 }
 
-.content {
-    width:80%;
+.message {
     height:150px;
+
+}
+
+.button {
+  text-align: right;
+}
+
+.btn {
+  background-color: #d43f39;
+  text-align: right;
+  margin-right: 25%;
+  text-decoration: none;
+  color: #f0e9dc;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border-radius: 25px;
+
+}
+
+.btn:hover {
+  background-color: #f0e9dc;
+  color: #1f1c27;
+  transition: all 400ms linear;
+}
+
+.btn::before {
+  font-family: "Material Icons Outlined";
+  content: 'send';
+  vertical-align: middle;
+  padding-right: 5px;
 }
