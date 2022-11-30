@@ -29,8 +29,6 @@ h1 {
   position: relative;
   top: 150px;
   font-size: 1.5rem;
-  /* top: 300px;web
-  font-size: 3rem; */
   color: #f0e9dc;
 }
 
@@ -40,7 +38,6 @@ p {
 }
 
 h2 {
-  /* font-size: 2.5rem;website */
   color: #1f1c27;
   font-size: 1.5rem;
 }
@@ -48,8 +45,6 @@ h2 {
 nav img {
   height: 40px;
   padding-left: .3rem;
-  /* height: 90px;
-  width: 90px; */
 }
 
 nav {
@@ -58,7 +53,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    /* padding: 1rem 0 1rem 1.5rem; */
 }
 
 nav ul {
@@ -66,13 +60,11 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 nav ul li {
   list-style-type: none;
   padding: .3rem .3rem;
-  /* padding: 0 2rem; */
 }
 
 nav ul li a {
@@ -80,10 +72,8 @@ nav ul li a {
   color: #f0e9dc;
   background-color: #1f1c27;
   padding: .3rem .7rem;
-  /* padding: .7rem 1.5rem; */
   border-radius: 1.5rem;
   font-size: .8rem;
-  /* font-size: 1.3rem; */
 }
 
 nav ul li a:hover {
@@ -93,9 +83,7 @@ nav ul li a:hover {
 
 .page-nav {
   display: flex;
-justify-content: center;
-  /* align-items: center; */
-  /* margin: 0 20% 30px; */
+  justify-content: center;
 }
 
 .page-nav ul {
@@ -111,11 +99,9 @@ justify-content: center;
 
 .page-nav ul li a {
   text-decoration: none;
-  /* font-size: 1.3rem; */
   color: #f0e9dc;
   background-color: black;
   padding: .5rem .7rem;
-  /* padding: .7rem 1.5rem; */
   border-radius: 1.5rem;
 }
 
@@ -325,22 +311,61 @@ input, textarea {
     top: 200px;
     font-size: 2rem;
   }
+  h2 {
+  font-size: 1.8rem;
+  }
+  h3{
+  font-size: 1.5rem;
+  }
   .index-section img {
     width: 700px;
     margin: auto;
   }
+  p {
+    font-size: 1rem;
+  }
+
   .history, .inspiration, .influences {
     text-align: left;
   }
 
+  nav img {
+    height: 50px;
+  }
+
+  nav ul li {
+    padding: 1rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+    padding: .5rem .8rem;
+  }
+
+  a {
+    font-size: 1.3rem;
+  }
+
+  .genres{
+    grid-template-columns: 1fr 1fr;
 }
 
 @media only screen and (min-width: 1280px){
 
   .hero-banner {
-    height: 80vh;
+    height: 60vh;
   }
 
+  h1 {
+    top: 275px;
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
   .index-section img {
     width: 600px;
   }
@@ -356,7 +381,9 @@ input, textarea {
   }
   .genres{
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem;
-    margin: 2rem;
   }
+  .history {
+    margin-top: 1rem;
+  }
+
 }
