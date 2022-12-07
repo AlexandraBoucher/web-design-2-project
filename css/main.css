@@ -5,7 +5,6 @@ html {
   font-family: "Righteous", sans-serif;
   line-height: 1.5;
   margin: 0;
-  /* background-color: #f0e9dc; */
 }
 
 *, *::before, *::after {
@@ -32,14 +31,14 @@ h1 {
   color: #f0e9dc;
 }
 
-p {
-  font-family: "Inter", sans-serif;
-  font-size: .9rem;
-}
-
 h2 {
   color: #1f1c27;
   font-size: 1.5rem;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: .9rem;
 }
 
 nav img {
@@ -121,7 +120,6 @@ nav ul li a:hover {
 }
 
 .history, .influences {
-  /* padding: 0 1rem 4rem; */
   padding: 0 1rem;
 }
 
@@ -135,13 +133,12 @@ nav ul li a:hover {
 }
 
 .index-section article p {
-  padding: 0 1rem;
+  padding: 0 1rem 1rem;
 }
 
 .index-section img {
   width: 400px;
 }
-
 
 /* GENRES */
 .other-nav {
@@ -248,12 +245,12 @@ footer small {
 
 .top p {
   margin: 0;
+  padding: 0 2rem;
 }
 
 .container {
     min-width:100%;
     max-height: 100%;
-
 }
 
 input, textarea {
@@ -268,7 +265,6 @@ input, textarea {
 
 .message {
     height:150px;
-
 }
 
 .button {
@@ -283,10 +279,7 @@ input, textarea {
   color: #f0e9dc;
   font-size: 1rem;
   padding: 5px 7px;
-  /* font-size: 1.3rem;
-  padding: 10px 15px; */
   border-radius: 25px;
-
 }
 
 .btn:hover {
@@ -324,28 +317,22 @@ input, textarea {
   p {
     font-size: 1rem;
   }
-
   .history, .inspiration, .influences {
     text-align: left;
   }
-
   nav img {
     height: 50px;
   }
-
   nav ul li {
     padding: 1rem;
   }
-
   nav ul li a {
     font-size: 1rem;
     padding: .5rem .8rem;
   }
-
   a {
     font-size: 1.3rem;
   }
-
   .genres{
     grid-template-columns: 1fr 1fr;
 }
@@ -355,7 +342,6 @@ input, textarea {
   .hero-banner {
     height: 60vh;
   }
-
   h1 {
     top: 275px;
     font-size: 2.5rem;
@@ -369,13 +355,11 @@ input, textarea {
   .index-section img {
     width: 600px;
   }
-
   .history, .inspiration, .influences {
     flex-direction: row;
     align-items: center;
     text-align: left;
   }
-
   .influences {
     flex-direction: row-reverse;
   }
